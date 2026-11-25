@@ -1,0 +1,9 @@
+numpy
+pandas
+pyarrow
+tqdm
+transformers==4.49.0
+sentence-transformers
+lightgbm
+fastapi
+uvicorn
