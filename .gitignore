@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.vscode/
+
+data/
+outputs/
+*.tar.gz
+*.zip
+*.pth
+*.parquet
+*.npy
+
+third_party/TIGER/data/
+third_party/TIGER/rqvae/ckpt/
+third_party/TIGER/**/__pycache__/

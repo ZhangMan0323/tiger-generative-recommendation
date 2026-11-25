@@ -1,0 +1,203 @@
+2026-11-23 11:05:06,537 - INFO - Configuration: {'batch_size': 32, 'infer_size': 8, 'num_epochs': 1, 'lr': 0.0001, 'device': 'cpu', 'num_layers': 4, 'num_decoder_layers': 4, 'd_model': 128, 'd_ff': 1024, 'num_heads': 6, 'd_kv': 64, 'dropout_rate': 0.1, 'vocab_size': 1025, 'pad_token_id': 0, 'eos_token_id': 0, 'feed_forward_proj': 'relu', 'max_len': 20, 'dataset_path': '..\\data\\Beauty_small', 'code_path': '..\\data\\Beauty\\Beauty_t5_rqvae.npy', 'mode': 'train', 'log_path': './logs/tiger.log', 'seed': 2025, 'save_path': '.\\ckpt\\smoke.pth', 'early_stop': 10, 'topk_list': [5, 10, 20], 'beam_size': 5}
+2026-11-23 11:05:06,610 - INFO - #Embedding parameters: 131200
+#Non-embedding parameters: 4459648
+#Total trainable parameters: 4590848
+
+2026-11-23 11:05:07,122 - INFO - Epoch 1/1
+2026-11-23 11:11:02,571 - INFO - Training loss: 5.373666662783236
+2026-11-23 11:11:33,487 - INFO - Validation Dataset: {'Recall@5': 0.0, 'Recall@10': 0.0, 'Recall@20': 0.0}
+2026-11-23 11:11:33,487 - INFO - Validation Dataset: {'NDCG@5': 0.0, 'NDCG@10': 0.0, 'NDCG@20': 0.0}
+2026-11-23 11:11:33,487 - INFO - No improvement in NDCG@20. Early stop counter: 1
+2026-11-23 11:18:14,907 - INFO - Configuration: {'batch_size': 32, 'infer_size': 8, 'num_epochs': 30, 'lr': 0.0001, 'device': 'cpu', 'num_layers': 4, 'num_decoder_layers': 4, 'd_model': 128, 'd_ff': 1024, 'num_heads': 6, 'd_kv': 64, 'dropout_rate': 0.1, 'vocab_size': 1025, 'pad_token_id': 0, 'eos_token_id': 0, 'feed_forward_proj': 'relu', 'max_len': 20, 'dataset_path': '..\\data\\Beauty_tiny', 'code_path': '..\\data\\Beauty\\Beauty_t5_rqvae.npy', 'mode': 'train', 'log_path': './logs/tiger.log', 'seed': 2025, 'save_path': '.\\ckpt\\tiny.pth', 'early_stop': 10, 'topk_list': [5, 10, 20], 'beam_size': 5}
+2026-11-23 11:18:15,038 - INFO - #Embedding parameters: 131200
+#Non-embedding parameters: 4459648
+#Total trainable parameters: 4590848
+
+2026-11-23 11:18:15,409 - INFO - Epoch 1/30
+2026-11-23 11:19:44,924 - INFO - Training loss: 6.006375079684787
+2026-11-23 11:20:10,458 - INFO - Validation Dataset: {'Recall@5': 0.0, 'Recall@10': 0.0, 'Recall@20': 0.0}
+2026-11-23 11:20:10,459 - INFO - Validation Dataset: {'NDCG@5': 0.0, 'NDCG@10': 0.0, 'NDCG@20': 0.0}
+2026-11-23 11:20:10,459 - INFO - No improvement in NDCG@20. Early stop counter: 1
+2026-11-23 11:20:10,459 - INFO - Epoch 2/30
+2026-11-23 11:21:03,456 - INFO - Training loss: 5.512857564290365
+2026-11-23 11:21:28,918 - INFO - Validation Dataset: {'Recall@5': 0.0, 'Recall@10': 0.0, 'Recall@20': 0.0}
+2026-11-23 11:21:28,918 - INFO - Validation Dataset: {'NDCG@5': 0.0, 'NDCG@10': 0.0, 'NDCG@20': 0.0}
+2026-11-23 11:21:28,918 - INFO - No improvement in NDCG@20. Early stop counter: 2
+2026-11-23 11:21:28,918 - INFO - Epoch 3/30
+2026-11-23 11:22:22,921 - INFO - Training loss: 5.268755616082085
+2026-11-23 11:22:53,088 - INFO - Validation Dataset: {'Recall@5': 0.0, 'Recall@10': 0.0, 'Recall@20': 0.0}
+2026-11-23 11:22:53,088 - INFO - Validation Dataset: {'NDCG@5': 0.0, 'NDCG@10': 0.0, 'NDCG@20': 0.0}
+2026-11-23 11:22:53,088 - INFO - No improvement in NDCG@20. Early stop counter: 3
+2026-11-23 11:22:53,088 - INFO - Epoch 4/30
+2026-11-23 11:24:12,659 - INFO - Training loss: 5.0789200146993005
+2026-11-23 11:24:49,129 - INFO - Validation Dataset: {'Recall@5': 0.0, 'Recall@10': 0.0, 'Recall@20': 0.0}
+2026-11-23 11:24:49,129 - INFO - Validation Dataset: {'NDCG@5': 0.0, 'NDCG@10': 0.0, 'NDCG@20': 0.0}
+2026-11-23 11:24:49,129 - INFO - No improvement in NDCG@20. Early stop counter: 4
+2026-11-23 11:24:49,129 - INFO - Epoch 5/30
+2026-11-23 11:25:51,974 - INFO - Training loss: 4.942686600155301
+2026-11-23 11:26:17,367 - INFO - Validation Dataset: {'Recall@5': 0.0, 'Recall@10': 0.0, 'Recall@20': 0.0}
+2026-11-23 11:26:17,367 - INFO - Validation Dataset: {'NDCG@5': 0.0, 'NDCG@10': 0.0, 'NDCG@20': 0.0}
+2026-11-23 11:26:17,367 - INFO - No improvement in NDCG@20. Early stop counter: 5
+2026-11-23 11:26:17,367 - INFO - Epoch 6/30
+2026-11-23 11:27:11,562 - INFO - Training loss: 4.800844446818034
+2026-11-23 11:27:37,018 - INFO - Validation Dataset: {'Recall@5': 0.0, 'Recall@10': 0.0, 'Recall@20': 0.0}
+2026-11-23 11:27:37,018 - INFO - Validation Dataset: {'NDCG@5': 0.0, 'NDCG@10': 0.0, 'NDCG@20': 0.0}
+2026-11-23 11:27:37,018 - INFO - No improvement in NDCG@20. Early stop counter: 6
+2026-11-23 11:27:37,018 - INFO - Epoch 7/30
+2026-11-23 11:28:31,188 - INFO - Training loss: 4.6589768833584255
+2026-11-23 11:28:56,703 - INFO - Validation Dataset: {'Recall@5': 0.0, 'Recall@10': 0.0, 'Recall@20': 0.0}
+2026-11-23 11:28:56,704 - INFO - Validation Dataset: {'NDCG@5': 0.0, 'NDCG@10': 0.0, 'NDCG@20': 0.0}
+2026-11-23 11:28:56,704 - INFO - No improvement in NDCG@20. Early stop counter: 7
+2026-11-23 11:28:56,704 - INFO - Epoch 8/30
+2026-11-23 11:29:50,606 - INFO - Training loss: 4.536721897125244
+2026-11-23 11:30:16,111 - INFO - Validation Dataset: {'Recall@5': 0.0, 'Recall@10': 0.0, 'Recall@20': 0.0}
+2026-11-23 11:30:16,111 - INFO - Validation Dataset: {'NDCG@5': 0.0, 'NDCG@10': 0.0, 'NDCG@20': 0.0}
+2026-11-23 11:30:16,111 - INFO - No improvement in NDCG@20. Early stop counter: 8
+2026-11-23 11:30:16,111 - INFO - Epoch 9/30
+2026-11-23 11:31:09,035 - INFO - Training loss: 4.439531792534722
+2026-11-23 11:31:34,518 - INFO - Validation Dataset: {'Recall@5': 0.0, 'Recall@10': 0.0, 'Recall@20': 0.0}
+2026-11-23 11:31:34,518 - INFO - Validation Dataset: {'NDCG@5': 0.0, 'NDCG@10': 0.0, 'NDCG@20': 0.0}
+2026-11-23 11:31:34,518 - INFO - No improvement in NDCG@20. Early stop counter: 9
+2026-11-23 11:31:34,518 - INFO - Epoch 10/30
+2026-11-23 11:32:28,922 - INFO - Training loss: 4.320440917544895
+2026-11-23 11:32:54,403 - INFO - Validation Dataset: {'Recall@5': 0.0, 'Recall@10': 0.0, 'Recall@20': 0.0}
+2026-11-23 11:32:54,403 - INFO - Validation Dataset: {'NDCG@5': 0.0, 'NDCG@10': 0.0, 'NDCG@20': 0.0}
+2026-11-23 11:32:54,403 - INFO - No improvement in NDCG@20. Early stop counter: 10
+2026-11-23 11:32:54,403 - INFO - Early stopping triggered.
+2026-11-23 04:50:05,916 - INFO - Configuration: {'batch_size': 256, 'infer_size': 32, 'num_epochs': 10, 'lr': 0.0001, 'device': 'cuda', 'num_layers': 4, 'num_decoder_layers': 4, 'd_model': 128, 'd_ff': 1024, 'num_heads': 6, 'd_kv': 64, 'dropout_rate': 0.1, 'vocab_size': 1025, 'pad_token_id': 0, 'eos_token_id': 0, 'feed_forward_proj': 'relu', 'max_len': 20, 'dataset_path': '../data/Beauty', 'code_path': '../data/Beauty/Beauty_t5_rqvae.npy', 'mode': 'train', 'log_path': './logs/tiger.log', 'seed': 2025, 'save_path': './ckpt/tiger_beauty.pth', 'early_stop': 10, 'topk_list': [5, 10, 20], 'beam_size': 20}
+2026-11-23 04:50:06,282 - INFO - #Embedding parameters: 131200
+#Non-embedding parameters: 4459648
+#Total trainable parameters: 4590848
+
+2026-11-23 04:50:12,136 - INFO - Epoch 1/10
+2026-11-23 04:51:56,994 - INFO - Training loss: 4.913081564328086
+2026-11-23 04:53:31,334 - INFO - Validation Dataset: {'Recall@5': 0.006080114449213162, 'Recall@10': 0.011400214592274678, 'Recall@20': 0.015342685318044327}
+2026-11-23 04:53:31,334 - INFO - Validation Dataset: {'NDCG@5': 0.003967058798231621, 'NDCG@10': 0.005715886481340777, 'NDCG@20': 0.00669984048557533}
+2026-11-23 04:55:01,854 - INFO - Best NDCG@20: 0.00669984048557533
+2026-11-23 04:55:01,854 - INFO - Test Dataset: {'Recall@5': 0.004157725321888412, 'Recall@10': 0.008360157367668097, 'Recall@20': 0.01157904148783977}
+2026-11-23 04:55:01,854 - INFO - Test Dataset: {'NDCG@5': 0.0026550977297649533, 'NDCG@10': 0.004021480980626333, 'NDCG@20': 0.004832765032858381}
+2026-11-23 04:55:01,903 - INFO - Best model saved to ./ckpt/tiger_beauty.pth
+2026-11-23 04:55:01,903 - INFO - Epoch 2/10
+2026-11-23 04:56:51,624 - INFO - Training loss: 4.235119494482701
+2026-11-23 04:58:22,884 - INFO - Validation Dataset: {'Recall@5': 0.013302734065720963, 'Recall@10': 0.024138319283425382, 'Recall@20': 0.031970274998394714}
+2026-11-23 04:58:22,884 - INFO - Validation Dataset: {'NDCG@5': 0.008338496110299456, 'NDCG@10': 0.011847985989663308, 'NDCG@20': 0.013867826958470717}
+2026-11-23 04:59:53,257 - INFO - Best NDCG@20: 0.013867826958470717
+2026-11-23 04:59:53,257 - INFO - Test Dataset: {'Recall@5': 0.009262570868831164, 'Recall@10': 0.01835459386543484, 'Recall@20': 0.024434708314648}
+2026-11-23 04:59:53,257 - INFO - Test Dataset: {'NDCG@5': 0.005666730365847825, 'NDCG@10': 0.008618286708223292, 'NDCG@20': 0.01019171530244944}
+2026-11-23 04:59:53,319 - INFO - Best model saved to ./ckpt/tiger_beauty.pth
+2026-11-23 04:59:53,319 - INFO - Epoch 3/10
+2026-11-23 05:01:43,359 - INFO - Training loss: 3.8763036412487697
+2026-11-23 05:03:14,186 - INFO - Validation Dataset: {'Recall@5': 0.018131060245978475, 'Recall@10': 0.030003179147178694, 'Recall@20': 0.04034699041273802}
+2026-11-23 05:03:14,186 - INFO - Validation Dataset: {'NDCG@5': 0.011062482904871987, 'NDCG@10': 0.014910560422370447, 'NDCG@20': 0.01753622295004509}
+2026-11-23 05:04:45,093 - INFO - Best NDCG@20: 0.01753622295004509
+2026-11-23 05:04:45,093 - INFO - Test Dataset: {'Recall@5': 0.01181085413063374, 'Recall@10': 0.021349944366150148, 'Recall@20': 0.029734938803831053}
+2026-11-23 05:04:45,093 - INFO - Test Dataset: {'NDCG@5': 0.007516973775855461, 'NDCG@10': 0.010564074122769298, 'NDCG@20': 0.012696298421527098}
+2026-11-23 05:04:45,139 - INFO - Best model saved to ./ckpt/tiger_beauty.pth
+2026-11-23 05:04:45,139 - INFO - Epoch 4/10
+2026-11-23 05:07:33,536 - INFO - Configuration: {'batch_size': 256, 'infer_size': 32, 'num_epochs': 10, 'lr': 0.0001, 'device': 'cuda', 'num_layers': 4, 'num_decoder_layers': 4, 'd_model': 128, 'd_ff': 1024, 'num_heads': 6, 'd_kv': 64, 'dropout_rate': 0.1, 'vocab_size': 1025, 'pad_token_id': 0, 'eos_token_id': 0, 'feed_forward_proj': 'relu', 'max_len': 20, 'dataset_path': '../data/Beauty', 'code_path': '../data/Beauty/Beauty_t5_rqvae.npy', 'mode': 'train', 'log_path': './logs/tiger.log', 'seed': 2025, 'save_path': './ckpt/tiger_beauty.pth', 'early_stop': 10, 'topk_list': [5, 10, 20], 'beam_size': 20}
+2026-11-23 05:07:33,656 - INFO - #Embedding parameters: 131200
+#Non-embedding parameters: 4459648
+#Total trainable parameters: 4590848
+
+2026-11-23 05:07:40,078 - INFO - Epoch 1/10
+2026-11-23 05:10:16,014 - INFO - Training loss: 4.935523401438494
+2026-11-23 05:11:49,444 - INFO - Validation Dataset: {'Recall@5': 0.009120171673819743, 'Recall@10': 0.016854434907010014, 'Recall@20': 0.020939304827791085}
+2026-11-23 05:11:49,444 - INFO - Validation Dataset: {'NDCG@5': 0.005270507687620168, 'NDCG@10': 0.007778644019495349, 'NDCG@20': 0.008797263012444854}
+2026-11-23 05:13:24,203 - INFO - Configuration: {'batch_size': 256, 'infer_size': 32, 'num_epochs': 1, 'lr': 0.0001, 'device': 'cuda', 'num_layers': 4, 'num_decoder_layers': 4, 'd_model': 128, 'd_ff': 1024, 'num_heads': 6, 'd_kv': 64, 'dropout_rate': 0.1, 'vocab_size': 1025, 'pad_token_id': 0, 'eos_token_id': 0, 'feed_forward_proj': 'relu', 'max_len': 20, 'dataset_path': '../data/Beauty', 'code_path': '../data/Beauty/Beauty_t5_rqvae.npy', 'mode': 'train', 'log_path': './logs/tiger.log', 'seed': 2025, 'save_path': './ckpt/tiger_1ep.pth', 'early_stop': 10, 'topk_list': [5, 10, 20], 'beam_size': 20}
+2026-11-23 05:13:24,309 - INFO - #Embedding parameters: 131200
+#Non-embedding parameters: 4459648
+#Total trainable parameters: 4590848
+
+2026-11-23 05:13:30,670 - INFO - Epoch 1/1
+2026-11-23 05:16:07,863 - INFO - Training loss: 4.978333687503978
+2026-11-23 05:17:41,976 - INFO - Validation Dataset: {'Recall@5': 0.006311927092007131, 'Recall@10': 0.009217864144939893, 'Recall@20': 0.011721440682851194}
+2026-11-23 05:17:41,976 - INFO - Validation Dataset: {'NDCG@5': 0.004093391437067494, 'NDCG@10': 0.0050380240742101175, 'NDCG@20': 0.0056612197721432975}
+2026-11-23 05:19:14,211 - INFO - Best NDCG@20: 0.0056612197721432975
+2026-11-23 05:19:14,211 - INFO - Test Dataset: {'Recall@5': 0.0042024320457796855, 'Recall@10': 0.0062142346208869815, 'Recall@20': 0.008315450643776824}
+2026-11-23 05:19:14,211 - INFO - Test Dataset: {'NDCG@5': 0.002552125584307488, 'NDCG@10': 0.003194110436053235, 'NDCG@20': 0.003722694152846229}
+2026-11-23 05:19:14,242 - INFO - Best model saved to ./ckpt/tiger_1ep.pth
+2026-11-23 05:21:24,012 - INFO - Configuration: {'batch_size': 256, 'infer_size': 32, 'num_epochs': 10, 'lr': 0.0001, 'device': 'cuda', 'num_layers': 4, 'num_decoder_layers': 4, 'd_model': 128, 'd_ff': 1024, 'num_heads': 6, 'd_kv': 64, 'dropout_rate': 0.1, 'vocab_size': 1025, 'pad_token_id': 0, 'eos_token_id': 0, 'feed_forward_proj': 'relu', 'max_len': 20, 'dataset_path': '../data/Beauty', 'code_path': '../data/Beauty/Beauty_t5_rqvae.npy', 'mode': 'train', 'log_path': './logs/tiger.log', 'seed': 2025, 'save_path': './ckpt/tiger_beauty.pth', 'early_stop': 10, 'topk_list': [5, 10, 20], 'beam_size': 20}
+2026-11-23 05:21:24,124 - INFO - #Embedding parameters: 131200
+#Non-embedding parameters: 4459648
+#Total trainable parameters: 4590848
+
+2026-11-23 05:21:30,593 - INFO - Epoch 1/10
+2026-11-23 05:24:06,103 - INFO - Training loss: 4.965683349839444
+2026-11-23 05:25:40,123 - INFO - Validation Dataset: {'Recall@5': 0.00658016743535477, 'Recall@10': 0.010746171780580785, 'Recall@20': 0.01298978699848205}
+2026-11-23 05:25:40,123 - INFO - Validation Dataset: {'NDCG@5': 0.004183283419440233, 'NDCG@10': 0.005546275145229011, 'NDCG@20': 0.006115167658877305}
+2026-11-23 05:27:13,030 - INFO - Best NDCG@20: 0.006115167658877305
+2026-11-23 05:27:13,030 - INFO - Test Dataset: {'Recall@5': 0.004068311874105866, 'Recall@10': 0.007287195994277539, 'Recall@20': 0.00880722460658083}
+2026-11-23 05:27:13,030 - INFO - Test Dataset: {'NDCG@5': 0.002596910707172918, 'NDCG@10': 0.0036495562712095665, 'NDCG@20': 0.004032638193759668}
+2026-11-23 05:27:13,068 - INFO - Best model saved to ./ckpt/tiger_beauty.pth
+2026-11-23 05:27:13,068 - INFO - Epoch 2/10
+2026-11-23 05:29:45,810 - INFO - Training loss: 4.274191137417745
+2026-11-23 05:31:16,324 - INFO - Validation Dataset: {'Recall@5': 0.01437569543911152, 'Recall@10': 0.021919541135536926, 'Recall@20': 0.029393843059376073}
+2026-11-23 05:31:16,324 - INFO - Validation Dataset: {'NDCG@5': 0.00884875717262427, 'NDCG@10': 0.011268099777944098, 'NDCG@20': 0.013153565725117111}
+2026-11-23 05:32:46,933 - INFO - Best NDCG@20: 0.013153565725117111
+2026-11-23 05:32:46,933 - INFO - Test Dataset: {'Recall@5': 0.009835479256080115, 'Recall@10': 0.016289805543098668, 'Recall@20': 0.02281698723122456}
+2026-11-23 05:32:46,933 - INFO - Test Dataset: {'NDCG@5': 0.005842779657786155, 'NDCG@10': 0.007929940012487475, 'NDCG@20': 0.009564008614386782}
+2026-11-23 05:32:46,976 - INFO - Best model saved to ./ckpt/tiger_beauty.pth
+2026-11-23 05:32:46,976 - INFO - Epoch 3/10
+2026-11-23 05:35:18,474 - INFO - Training loss: 3.914258487957461
+2026-11-23 05:36:48,852 - INFO - Validation Dataset: {'Recall@5': 0.017038229218709452, 'Recall@10': 0.027463174898054808, 'Recall@20': 0.03830703913909683}
+2026-11-23 05:36:48,852 - INFO - Validation Dataset: {'NDCG@5': 0.010629967022927022, 'NDCG@10': 0.01393567641480201, 'NDCG@20': 0.016668705204408482}
+2026-11-23 05:38:19,233 - INFO - Best NDCG@20: 0.016668705204408482
+2026-11-23 05:38:19,233 - INFO - Test Dataset: {'Recall@5': 0.012973228951806845, 'Recall@10': 0.021475785514486364, 'Recall@20': 0.029880649606045737}
+2026-11-23 05:38:19,233 - INFO - Test Dataset: {'NDCG@5': 0.007802534411436158, 'NDCG@10': 0.01048012487510371, 'NDCG@20': 0.012608980719341186}
+2026-11-23 05:38:19,273 - INFO - Best model saved to ./ckpt/tiger_beauty.pth
+2026-11-23 05:38:19,273 - INFO - Epoch 4/10
+2026-11-23 05:40:50,880 - INFO - Training loss: 3.6483741316813902
+2026-11-23 05:42:21,234 - INFO - Validation Dataset: {'Recall@5': 0.019541805756620755, 'Recall@10': 0.03108441953324794, 'Recall@20': 0.041972990498181234}
+2026-11-23 05:42:21,234 - INFO - Validation Dataset: {'NDCG@5': 0.01175131815590913, 'NDCG@10': 0.015484597230162232, 'NDCG@20': 0.018236644791894845}
+2026-11-23 05:43:52,168 - INFO - Best NDCG@20: 0.018236644791894845
+2026-11-23 05:43:52,168 - INFO - Test Dataset: {'Recall@5': 0.014627377735783955, 'Recall@10': 0.02388994860461512, 'Recall@20': 0.03252662533896846}
+2026-11-23 05:43:52,168 - INFO - Test Dataset: {'NDCG@5': 0.008872206150973816, 'NDCG@10': 0.011862905163088753, 'NDCG@20': 0.014053235222879951}
+2026-11-23 05:43:52,207 - INFO - Best model saved to ./ckpt/tiger_beauty.pth
+2026-11-23 05:43:52,207 - INFO - Epoch 5/10
+2026-11-23 05:46:23,711 - INFO - Training loss: 3.4466808463812804
+2026-11-23 05:47:53,842 - INFO - Validation Dataset: {'Recall@5': 0.019586512480512026, 'Recall@10': 0.03395392889628594, 'Recall@20': 0.04729309064124275}
+2026-11-23 05:47:53,842 - INFO - Validation Dataset: {'NDCG@5': 0.012096120121866167, 'NDCG@10': 0.016772028471800222, 'NDCG@20': 0.02014664257643411}
+2026-11-23 05:49:24,829 - INFO - Best NDCG@20: 0.02014664257643411
+2026-11-23 05:49:24,829 - INFO - Test Dataset: {'Recall@5': 0.014359137392436315, 'Recall@10': 0.025580525089145902, 'Recall@20': 0.03686317755642197}
+2026-11-23 05:49:24,829 - INFO - Test Dataset: {'NDCG@5': 0.008695010967200918, 'NDCG@10': 0.012294826037830038, 'NDCG@20': 0.015163893490971116}
+2026-11-23 05:49:24,868 - INFO - Best model saved to ./ckpt/tiger_beauty.pth
+2026-11-23 05:49:24,868 - INFO - Epoch 6/10
+2026-11-23 05:51:56,212 - INFO - Training loss: 3.2867661246065962
+2026-11-23 05:53:26,765 - INFO - Validation Dataset: {'Recall@5': 0.022260636879991906, 'Recall@10': 0.037628159289366865, 'Recall@20': 0.051495522687022434}
+2026-11-23 05:53:26,765 - INFO - Validation Dataset: {'NDCG@5': 0.013370978498087932, 'NDCG@10': 0.018279937413042794, 'NDCG@20': 0.021794164294139808}
+2026-11-23 05:54:57,244 - INFO - Best NDCG@20: 0.021794164294139808
+2026-11-23 05:54:57,244 - INFO - Test Dataset: {'Recall@5': 0.015297978594153053, 'Recall@10': 0.028665289037643756, 'Recall@20': 0.040395008743832554}
+2026-11-23 05:54:57,244 - INFO - Test Dataset: {'NDCG@5': 0.009223726150367905, 'NDCG@10': 0.013450357943069782, 'NDCG@20': 0.01646903542287445}
+2026-11-23 05:54:57,282 - INFO - Best model saved to ./ckpt/tiger_beauty.pth
+2026-11-23 05:54:57,282 - INFO - Epoch 7/10
+2026-11-23 05:57:28,897 - INFO - Training loss: 3.156549638347403
+2026-11-23 05:58:59,616 - INFO - Validation Dataset: {'Recall@5': 0.022313622637879695, 'Recall@10': 0.03744933239380178, 'Recall@20': 0.05253205637051824}
+2026-11-23 05:58:59,617 - INFO - Validation Dataset: {'NDCG@5': 0.013911511309348975, 'NDCG@10': 0.01875094958688952, 'NDCG@20': 0.022596115525545437}
+2026-11-23 06:00:30,593 - INFO - Best NDCG@20: 0.022596115525545437
+2026-11-23 06:00:30,593 - INFO - Test Dataset: {'Recall@5': 0.0153873920419356, 'Recall@10': 0.027011140253666646, 'Recall@20': 0.04104573994832319}
+2026-11-23 06:00:30,593 - INFO - Test Dataset: {'NDCG@5': 0.009515405689847146, 'NDCG@10': 0.013224258592541466, 'NDCG@20': 0.01680304301510937}
+2026-11-23 06:00:30,653 - INFO - Best model saved to ./ckpt/tiger_beauty.pth
+2026-11-23 06:00:30,654 - INFO - Epoch 8/10
+2026-11-23 06:03:02,679 - INFO - Training loss: 3.052242316624534
+2026-11-23 06:04:32,982 - INFO - Validation Dataset: {'Recall@5': 0.02328889152949119, 'Recall@10': 0.0395422693826951, 'Recall@20': 0.05583207490447594}
+2026-11-23 06:04:32,982 - INFO - Validation Dataset: {'NDCG@5': 0.014559900476057642, 'NDCG@10': 0.019771366414796557, 'NDCG@20': 0.023900675320217068}
+2026-11-23 06:06:04,251 - INFO - Best NDCG@20: 0.023900675320217068
+2026-11-23 06:06:04,251 - INFO - Test Dataset: {'Recall@5': 0.016317954220314734, 'Recall@10': 0.029067649552665213, 'Recall@20': 0.043459903038451944}
+2026-11-23 06:06:04,251 - INFO - Test Dataset: {'NDCG@5': 0.009987156126696152, 'NDCG@10': 0.014032700742582907, 'NDCG@20': 0.01771662796904814}
+2026-11-23 06:06:04,290 - INFO - Best model saved to ./ckpt/tiger_beauty.pth
+2026-11-23 06:06:04,290 - INFO - Epoch 9/10
+2026-11-23 06:08:35,816 - INFO - Training loss: 2.9648779834754735
+2026-11-23 06:10:06,493 - INFO - Validation Dataset: {'Recall@5': 0.023235905792921226, 'Recall@10': 0.04133053833834603, 'Recall@20': 0.05668978169240665}
+2026-11-23 06:10:06,493 - INFO - Validation Dataset: {'NDCG@5': 0.014470172958056814, 'NDCG@10': 0.020253806736037796, 'NDCG@20': 0.02411767102855235}
+2026-11-23 06:11:37,762 - INFO - Best NDCG@20: 0.02411767102855235
+2026-11-23 06:11:37,763 - INFO - Test Dataset: {'Recall@5': 0.015647353361945636, 'Recall@10': 0.02948656811436188, 'Recall@20': 0.04364700894669572}
+2026-11-23 06:11:37,763 - INFO - Test Dataset: {'NDCG@5': 0.009753666042705974, 'NDCG@10': 0.014165961166286843, 'NDCG@20': 0.01774185246059162}
+2026-11-23 06:11:37,801 - INFO - Best model saved to ./ckpt/tiger_beauty.pth
+2026-11-23 06:11:37,801 - INFO - Epoch 10/10
+2026-11-23 06:14:09,265 - INFO - Training loss: 2.890148701370922
+2026-11-23 06:15:40,072 - INFO - Validation Dataset: {'Recall@5': 0.024548958832443356, 'Recall@10': 0.0419200047829291, 'Recall@20': 0.058603891785734885}
+2026-11-23 06:15:40,072 - INFO - Validation Dataset: {'NDCG@5': 0.01524009861222579, 'NDCG@10': 0.02081102957264207, 'NDCG@20': 0.025012558596595076}
+2026-11-23 06:17:10,956 - INFO - Best NDCG@20: 0.025012558596595076
+2026-11-23 06:17:10,956 - INFO - Test Dataset: {'Recall@5': 0.016228540772532187, 'Recall@10': 0.031587784137251725, 'Recall@20': 0.04574822496958557}
+2026-11-23 06:17:10,956 - INFO - Test Dataset: {'NDCG@5': 0.01032550740608671, 'NDCG@10': 0.015206756456641851, 'NDCG@20': 0.018806951824650274}
+2026-11-23 06:17:11,013 - INFO - Best model saved to ./ckpt/tiger_beauty.pth
